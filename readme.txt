@@ -9,9 +9,9 @@
 mkdir -p ./dags ./logs ./plugins ./config ./tmp
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 
-2. move the restaurantDAG file to the folder tmp
+2. move the restaurantDAG file to the folder dags
 
-mv restaurantDAG.py tmp/restaurantDAG.py
+mv restaurantDAG.py dags/restaurantDAG.py
 
 3. initialize airflow.
 
